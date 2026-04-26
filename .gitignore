@@ -21,5 +21,4 @@ Thumbs.db
 # Build
 frontend/dist/
 
-# AI Agent
-.sixth/
+
