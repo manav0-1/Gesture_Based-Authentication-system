@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "train:hand": "node scripts/retrainHandModel.js",
+    "train:mouse": "node scripts/retrainMouseModel.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "adm-zip": "^0.5.17",
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^5.1.0",
+    "express-rate-limit": "^8.3.1",
+    "helmet": "^8.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "libsvm-js": "^0.2.1",
+    "ml-random-forest": "^2.1.0",
+    "mongoose": "^8.15.2",
+    "morgan": "^1.10.1",
+    "multer": "^2.1.1",
+    "nodemailer": "^8.0.4",
+    "uuid": "^9.0.1",
+    "winston": "^3.19.0",
+    "xmldom": "^0.6.0",
+    "xpath": "^0.0.34",
+    "zod": "^4.3.6"
+  }
+}

@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment
+backend/.env
+frontend/.env
+
+# Logs
+backend/logs/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+frontend/dist/
+
+# AI Agent
+.sixth/
